@@ -1,0 +1,335 @@
+{
+    "format":  1,
+    "title":  {
+                  "en":  "bcrabbit DSH plugins",
+                  "zh":  "bcrabbit 的 DSH 插件"
+              },
+    "metadata":  {
+                     "categories":  {
+                                        "ui":  {
+                                                   "title":  {
+                                                                 "en":  "Interface",
+                                                                 "zh":  "界面增强"
+                                                             }
+                                               },
+                                        "workflow":  {
+                                                         "title":  {
+                                                                       "en":  "Workflow",
+                                                                       "zh":  "工作流"
+                                                                   }
+                                                     },
+                                        "tools":  {
+                                                      "title":  {
+                                                                    "en":  "Tools",
+                                                                    "zh":  "工具"
+                                                                }
+                                                  }
+                                    },
+                     "labels":  {
+                                    "screenshot":  {
+                                                       "title":  {
+                                                                     "en":  "Screenshot",
+                                                                     "zh":  "截图"
+                                                                 }
+                                                   },
+                                    "prompt":  {
+                                                   "title":  {
+                                                                 "en":  "Prompt",
+                                                                 "zh":  "提示词"
+                                                             }
+                                               },
+                                    "usage":  {
+                                                  "title":  {
+                                                                "en":  "Usage",
+                                                                "zh":  "用量"
+                                                            }
+                                              },
+                                    "balance":  {
+                                                    "title":  {
+                                                                  "en":  "Balance",
+                                                                  "zh":  "余额"
+                                                              }
+                                                },
+                                    "preview":  {
+                                                    "title":  {
+                                                                  "en":  "Preview",
+                                                                  "zh":  "预览"
+                                                              }
+                                                },
+                                    "window":  {
+                                                   "title":  {
+                                                                 "en":  "Window",
+                                                                 "zh":  "窗口"
+                                                             }
+                                               },
+                                    "deliverable":  {
+                                                        "title":  {
+                                                                      "en":  "Deliverable",
+                                                                      "zh":  "交付物"
+                                                                  }
+                                                    },
+                                    "menu":  {
+                                                 "title":  {
+                                                               "en":  "Menu",
+                                                               "zh":  "菜单"
+                                                           }
+                                             },
+                                    "link":  {
+                                                 "title":  {
+                                                               "en":  "Link",
+                                                               "zh":  "链接"
+                                                           }
+                                             },
+                                    "session":  {
+                                                    "title":  {
+                                                                  "en":  "Session",
+                                                                  "zh":  "会话"
+                                                              }
+                                                }
+                                }
+                 },
+    "plugins":  [
+                    {
+                        "name":  "@local/dsh-plugin-screenshot-insert",
+                        "title":  {
+                                      "en":  "Screenshot annotate \u0026 insert",
+                                      "zh":  "截屏标注插入"
+                                  },
+                        "description":  {
+                                            "en":  "Adds a light-green screenshot button beside the composer\u0027s prompt Enhance button. Capture a region with the native macOS selection (in-app framing on Windows), mark it with rectangles and arrows, and confirm to insert the annotated image into the composer.",
+                                            "zh":  "在输入框的提示词增强按钮旁增加一个浅绿色截屏按钮：macOS 上用系统原生框选截图（Windows 上用应用内框选），可加矩形/箭头标注，点“确定”才把图片插入输入框。"
+                                        },
+                        "icon":  "icons/dsh-plugin-screenshot-insert.svg",
+                        "author":  "bcrabbit",
+                        "homepage":  "https://github.com/abcrabbit/dsh-plugin-screenshot-insert#readme",
+                        "repository":  {
+                                           "url":  "https://github.com/abcrabbit/dsh-plugin-screenshot-insert"
+                                       },
+                        "metadata":  {
+                                         "category":  "ui",
+                                         "labels":  [
+                                                        "screenshot"
+                                                    ]
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "1.2.0",
+                                             "publishTimestamp":  1795293837,
+                                             "source":  {
+                                                            "url":  "https://github.com/abcrabbit/dsh-plugin-screenshot-insert",
+                                                            "commit":  "1ee0780e1f3b2d9aa13ce47708c28186c0f7c251",
+                                                            "type":  "git"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@local/dsh-plugin-prompt-enhance",
+                        "title":  {
+                                      "en":  "Prompt Enhance",
+                                      "zh":  "提示词增强"
+                                  },
+                        "description":  {
+                                            "en":  "Adds an orange Enhance button beside the composer\u0027s send action that rewrites the draft into a clearer prompt with the default model.",
+                                            "zh":  "在输入框发送按钮旁增加一个橙色增强按钮，用默认模型把草稿改写成更清晰的提示词。"
+                                        },
+                        "icon":  "icons/dsh-plugin-prompt-enhance.svg",
+                        "author":  "bcrabbit",
+                        "homepage":  "https://github.com/abcrabbit/dsh-plugin-prompt-enhance#readme",
+                        "repository":  {
+                                           "url":  "https://github.com/abcrabbit/dsh-plugin-prompt-enhance"
+                                       },
+                        "metadata":  {
+                                         "category":  "ui",
+                                         "labels":  [
+                                                        "prompt"
+                                                    ]
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1795293837,
+                                             "source":  {
+                                                            "url":  "https://github.com/abcrabbit/dsh-plugin-prompt-enhance",
+                                                            "commit":  "a4f1f50725e0ce8dc7229f21a4b483744937a02d",
+                                                            "type":  "git"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@local/dsh-plugin-deepseek-usage",
+                        "title":  {
+                                      "en":  "Balance / Token usage",
+                                      "zh":  "余额 / Token 用量"
+                                  },
+                        "description":  {
+                                            "en":  "Adds a Balance/Token entry at the sidebar foot and shows the DeepSeek account full usage history, the UncensoredLLM relay balance and its local token usage: balance, spend, tokens and request counts, filterable by date, API key and model; both provider balances refresh about every 2 hours.",
+                                            "zh":  "在左下角显示「余额/Token」入口，并在会话区查看 DeepSeek 账户全部历史用量、UncensoredLLM 中转余额与本机 Token 用量：余额、消费金额、Token 与调用次数，可按日期、API Key、模型筛选；两个账户余额约每 2 小时自动刷新。"
+                                        },
+                        "icon":  "icons/dsh-plugin-deepseek-usage.svg",
+                        "author":  "bcrabbit",
+                        "homepage":  "https://github.com/abcrabbit/dsh-plugin-deepseek-usage#readme",
+                        "repository":  {
+                                           "url":  "https://github.com/abcrabbit/dsh-plugin-deepseek-usage"
+                                       },
+                        "metadata":  {
+                                         "category":  "tools",
+                                         "labels":  [
+                                                        "usage",
+                                                        "balance"
+                                                    ]
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "1.2.0",
+                                             "publishTimestamp":  1795293837,
+                                             "source":  {
+                                                            "url":  "https://github.com/abcrabbit/dsh-plugin-deepseek-usage",
+                                                            "commit":  "dffe86ac885f8009cc7bea01538a08352a41dce0",
+                                                            "type":  "git"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@local/dsh-plugin-preview-popout",
+                        "title":  {
+                                      "en":  "Preview pop-out window",
+                                      "zh":  "预览独立窗口"
+                                  },
+                        "description":  {
+                                            "en":  "Detaches a right-side document preview tab into its own window by dragging the tab chip out of the panel, or from the tab menu.",
+                                            "zh":  "把右侧文档预览的标签页拖出面板（或使用标签页菜单），在独立窗口中打开该文件。"
+                                        },
+                        "icon":  "icons/dsh-plugin-preview-popout.svg",
+                        "author":  "bcrabbit",
+                        "homepage":  "https://github.com/abcrabbit/dsh-plugin-preview-popout#readme",
+                        "repository":  {
+                                           "url":  "https://github.com/abcrabbit/dsh-plugin-preview-popout"
+                                       },
+                        "metadata":  {
+                                         "category":  "ui",
+                                         "labels":  [
+                                                        "preview",
+                                                        "window"
+                                                    ]
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.1",
+                                             "publishTimestamp":  1795293837,
+                                             "source":  {
+                                                            "url":  "https://github.com/abcrabbit/dsh-plugin-preview-popout",
+                                                            "commit":  "b42e08a95c7fcde2d666e9c30c80cb6cca42101d",
+                                                            "type":  "git"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@local/dsh-plugin-deliverable-menu",
+                        "title":  {
+                                      "en":  "Deliverable Hover Menu",
+                                      "zh":  "交付物悬浮菜单"
+                                  },
+                        "description":  {
+                                            "en":  "Adds a hover menu to conversation file links and delivered-file cards: open with the default program, show the containing folder, copy the file, or copy its full path.",
+                                            "zh":  "为回复正文中的文件链接、行内文件名引用以及交付文件卡片增加悬浮菜单：用系统默认程序打开、打开所在文件夹、复制文件、复制完整路径。"
+                                        },
+                        "icon":  "icons/dsh-plugin-deliverable-menu.svg",
+                        "author":  "bcrabbit",
+                        "homepage":  "https://github.com/abcrabbit/dsh-plugin-deliverable-menu#readme",
+                        "repository":  {
+                                           "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-menu"
+                                       },
+                        "metadata":  {
+                                         "category":  "ui",
+                                         "labels":  [
+                                                        "deliverable",
+                                                        "menu"
+                                                    ]
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1795293837,
+                                             "source":  {
+                                                            "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-menu",
+                                                            "commit":  "4b24ca8e0ae66246312d6dd6d3151b856611af5b",
+                                                            "type":  "git"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@local/dsh-plugin-deliverable-link-route",
+                        "title":  {
+                                      "en":  "Deliverable Link Actions",
+                                      "zh":  "交付物链接操作"
+                                  },
+                        "description":  {
+                                            "en":  "Host half of the Deliverable Hover Menu: performs open, reveal, copy-file and copy-path actions for conversation file links.",
+                                            "zh":  "交付物悬停菜单的主机端：为对话中的文件链接执行打开、打开所在文件夹、复制文件和复制完整路径操作。"
+                                        },
+                        "icon":  "icons/dsh-plugin-deliverable-link-route.svg",
+                        "author":  "bcrabbit",
+                        "homepage":  "https://github.com/abcrabbit/dsh-plugin-deliverable-link-route#readme",
+                        "repository":  {
+                                           "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-link-route"
+                                       },
+                        "metadata":  {
+                                         "category":  "tools",
+                                         "labels":  [
+                                                        "deliverable",
+                                                        "link"
+                                                    ]
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1795293837,
+                                             "source":  {
+                                                            "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-link-route",
+                                                            "commit":  "2bb73ec32ef74ea7488436aad749834f4e6179ec",
+                                                            "type":  "git"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@local/dsh-plugin-session-delete-v3",
+                        "title":  {
+                                      "en":  "Session Delete Queue",
+                                      "zh":  "会话删除队列"
+                                  },
+                        "description":  {
+                                            "en":  "Delete sessions through a visible, cancellable queue: marked sessions are struck through in red and removed on the next start.",
+                                            "zh":  "通过可见、可取消的删除队列删除会话：已标记的会话以红色删除线显示，并在下次启动时清理。"
+                                        },
+                        "icon":  "icons/dsh-plugin-session-delete-v3.svg",
+                        "author":  "bcrabbit",
+                        "homepage":  "https://github.com/abcrabbit/dsh-plugin-session-delete-v3#readme",
+                        "repository":  {
+                                           "url":  "https://github.com/abcrabbit/dsh-plugin-session-delete-v3"
+                                       },
+                        "metadata":  {
+                                         "category":  "workflow",
+                                         "labels":  [
+                                                        "session"
+                                                    ]
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "3.0.1",
+                                             "publishTimestamp":  1795293837,
+                                             "source":  {
+                                                            "url":  "https://github.com/abcrabbit/dsh-plugin-session-delete-v3",
+                                                            "commit":  "7dfb03fff124a1628072d338e5f985e3dda95f0b",
+                                                            "type":  "git"
+                                                        }
+                                         }
+                                     ]
+                    }
+                ]
+}
