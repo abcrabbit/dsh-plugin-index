@@ -90,7 +90,7 @@
                  },
     "plugins":  [
                     {
-                        "name":  "@local/dsh-plugin-screenshot-insert",
+                        "name":  "dsh-plugin-screenshot-insert",
                         "title":  {
                                       "en":  "Screenshot annotate \u0026 insert",
                                       "zh":  "截屏标注插入"
@@ -114,17 +114,17 @@
                         "versions":  [
                                          {
                                              "version":  "1.2.0",
-                                             "publishTimestamp":  1795293837,
+                                             "publishTimestamp":  1795301760,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-screenshot-insert",
-                                                            "commit":  "1ee0780e1f3b2d9aa13ce47708c28186c0f7c251",
+                                                            "commit":  "0fcff47c5ccf351f23691ce001f7e3611d68301d",
                                                             "type":  "git"
                                                         }
                                          }
                                      ]
                     },
                     {
-                        "name":  "@local/dsh-plugin-prompt-enhance",
+                        "name":  "dsh-plugin-prompt-enhance",
                         "title":  {
                                       "en":  "Prompt Enhance",
                                       "zh":  "提示词增强"
@@ -148,17 +148,17 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.0",
-                                             "publishTimestamp":  1795293837,
+                                             "publishTimestamp":  1795301760,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-prompt-enhance",
-                                                            "commit":  "a4f1f50725e0ce8dc7229f21a4b483744937a02d",
+                                                            "commit":  "2f8e7b5904fa1925871fbd51157b38795ababe91",
                                                             "type":  "git"
                                                         }
                                          }
                                      ]
                     },
                     {
-                        "name":  "@local/dsh-plugin-deepseek-usage",
+                        "name":  "dsh-plugin-deepseek-usage",
                         "title":  {
                                       "en":  "Balance / Token usage",
                                       "zh":  "余额 / Token 用量"
@@ -183,17 +183,17 @@
                         "versions":  [
                                          {
                                              "version":  "1.2.0",
-                                             "publishTimestamp":  1795293837,
+                                             "publishTimestamp":  1795301760,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-deepseek-usage",
-                                                            "commit":  "dffe86ac885f8009cc7bea01538a08352a41dce0",
+                                                            "commit":  "38c3b027099a67da80c3fd3f93949571aed17e2a",
                                                             "type":  "git"
                                                         }
                                          }
                                      ]
                     },
                     {
-                        "name":  "@local/dsh-plugin-preview-popout",
+                        "name":  "dsh-plugin-preview-popout",
                         "title":  {
                                       "en":  "Preview pop-out window",
                                       "zh":  "预览独立窗口"
@@ -218,17 +218,17 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.1",
-                                             "publishTimestamp":  1795293837,
+                                             "publishTimestamp":  1795301760,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-preview-popout",
-                                                            "commit":  "b42e08a95c7fcde2d666e9c30c80cb6cca42101d",
+                                                            "commit":  "9d4ad9ba8717d2d81101565c013a041ed1e0015a",
                                                             "type":  "git"
                                                         }
                                          }
                                      ]
                     },
                     {
-                        "name":  "@local/dsh-plugin-deliverable-menu",
+                        "name":  "dsh-plugin-deliverable-menu",
                         "title":  {
                                       "en":  "Deliverable Hover Menu",
                                       "zh":  "交付物悬浮菜单"
@@ -253,17 +253,17 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.0",
-                                             "publishTimestamp":  1795293837,
+                                             "publishTimestamp":  1795301760,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-menu",
-                                                            "commit":  "4b24ca8e0ae66246312d6dd6d3151b856611af5b",
+                                                            "commit":  "5074132be8505f15094e882ffa9b76ba0388e14f",
                                                             "type":  "git"
                                                         }
                                          }
                                      ]
                     },
                     {
-                        "name":  "@local/dsh-plugin-deliverable-link-route",
+                        "name":  "dsh-plugin-deliverable-link-route",
                         "title":  {
                                       "en":  "Deliverable Link Actions",
                                       "zh":  "交付物链接操作"
@@ -288,17 +288,17 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.0",
-                                             "publishTimestamp":  1795293837,
+                                             "publishTimestamp":  1795301760,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-link-route",
-                                                            "commit":  "2bb73ec32ef74ea7488436aad749834f4e6179ec",
+                                                            "commit":  "2e014e3f4fd67c9f9272eeb9a2aae5600891dd63",
                                                             "type":  "git"
                                                         }
                                          }
                                      ]
                     },
                     {
-                        "name":  "@local/dsh-plugin-session-delete-v3",
+                        "name":  "dsh-plugin-session-delete-v3",
                         "title":  {
                                       "en":  "Session Delete Queue",
                                       "zh":  "会话删除队列"
@@ -322,10 +322,10 @@
                         "versions":  [
                                          {
                                              "version":  "3.0.1",
-                                             "publishTimestamp":  1795293837,
+                                             "publishTimestamp":  1795301760,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-session-delete-v3",
-                                                            "commit":  "7dfb03fff124a1628072d338e5f985e3dda95f0b",
+                                                            "commit":  "c818f9b1122005a8f2bb5b4ecfe21ce53b7b7b0e",
                                                             "type":  "git"
                                                         }
                                          }
