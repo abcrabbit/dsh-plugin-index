@@ -114,7 +114,7 @@
                         "versions":  [
                                          {
                                              "version":  "1.3.0",
-                                             "publishTimestamp":  1795302885,
+                                             "publishTimestamp":  1795304207,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-screenshot-insert",
                                                             "commit":  "9179931276b2f05f7fa957840befac6b15e18463",
@@ -147,11 +147,11 @@
                                      },
                         "versions":  [
                                          {
-                                             "version":  "1.0.0",
-                                             "publishTimestamp":  1795302885,
+                                             "version":  "1.0.1",
+                                             "publishTimestamp":  1795304207,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-prompt-enhance",
-                                                            "commit":  "2f8e7b5904fa1925871fbd51157b38795ababe91",
+                                                            "commit":  "7c751f824e51ca20ca4b3e919d6d338851fa4742",
                                                             "type":  "git"
                                                         }
                                          }
@@ -182,11 +182,11 @@
                                      },
                         "versions":  [
                                          {
-                                             "version":  "1.2.1",
-                                             "publishTimestamp":  1795302885,
+                                             "version":  "1.2.2",
+                                             "publishTimestamp":  1795304207,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-deepseek-usage",
-                                                            "commit":  "643ac63969a722a7bd8d1b9bb4dc3c9957fc8cbe",
+                                                            "commit":  "2fd8982f6baee455962fcfded715b0da6622849b",
                                                             "type":  "git"
                                                         }
                                          }
@@ -217,11 +217,11 @@
                                      },
                         "versions":  [
                                          {
-                                             "version":  "1.0.1",
-                                             "publishTimestamp":  1795302885,
+                                             "version":  "1.0.2",
+                                             "publishTimestamp":  1795304207,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-preview-popout",
-                                                            "commit":  "9d4ad9ba8717d2d81101565c013a041ed1e0015a",
+                                                            "commit":  "b0173feedc9b436df2612e262f7675364ae7d134",
                                                             "type":  "git"
                                                         }
                                          }
@@ -252,11 +252,11 @@
                                      },
                         "versions":  [
                                          {
-                                             "version":  "1.0.0",
-                                             "publishTimestamp":  1795302885,
+                                             "version":  "1.0.1",
+                                             "publishTimestamp":  1795304207,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-menu",
-                                                            "commit":  "5074132be8505f15094e882ffa9b76ba0388e14f",
+                                                            "commit":  "f356d032236c578e48696a71ac69774b024d966b",
                                                             "type":  "git"
                                                         }
                                          }
@@ -288,7 +288,7 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.0",
-                                             "publishTimestamp":  1795302885,
+                                             "publishTimestamp":  1795304207,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-link-route",
                                                             "commit":  "2e014e3f4fd67c9f9272eeb9a2aae5600891dd63",
@@ -321,11 +321,11 @@
                                      },
                         "versions":  [
                                          {
-                                             "version":  "3.0.1",
-                                             "publishTimestamp":  1795302885,
+                                             "version":  "3.0.2",
+                                             "publishTimestamp":  1795304207,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-session-delete-v3",
-                                                            "commit":  "c818f9b1122005a8f2bb5b4ecfe21ce53b7b7b0e",
+                                                            "commit":  "60f8d4ec7e70f6d5377fcc7456659a5f17a9b223",
                                                             "type":  "git"
                                                         }
                                          }
