@@ -113,11 +113,11 @@
                                      },
                         "versions":  [
                                          {
-                                             "version":  "1.3.0",
-                                             "publishTimestamp":  1795304207,
+                                             "version":  "1.3.1",
+                                             "publishTimestamp":  1795305991,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-screenshot-insert",
-                                                            "commit":  "9179931276b2f05f7fa957840befac6b15e18463",
+                                                            "commit":  "4237e69bb4500c507cc5ca5ea8aaf696d95e101d",
                                                             "type":  "git"
                                                         }
                                          }
@@ -148,7 +148,7 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.1",
-                                             "publishTimestamp":  1795304207,
+                                             "publishTimestamp":  1795305991,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-prompt-enhance",
                                                             "commit":  "7c751f824e51ca20ca4b3e919d6d338851fa4742",
@@ -183,7 +183,7 @@
                         "versions":  [
                                          {
                                              "version":  "1.2.2",
-                                             "publishTimestamp":  1795304207,
+                                             "publishTimestamp":  1795305991,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-deepseek-usage",
                                                             "commit":  "2fd8982f6baee455962fcfded715b0da6622849b",
@@ -218,7 +218,7 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.2",
-                                             "publishTimestamp":  1795304207,
+                                             "publishTimestamp":  1795305991,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-preview-popout",
                                                             "commit":  "b0173feedc9b436df2612e262f7675364ae7d134",
@@ -253,7 +253,7 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.1",
-                                             "publishTimestamp":  1795304207,
+                                             "publishTimestamp":  1795305991,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-menu",
                                                             "commit":  "f356d032236c578e48696a71ac69774b024d966b",
@@ -288,7 +288,7 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.0",
-                                             "publishTimestamp":  1795304207,
+                                             "publishTimestamp":  1795305991,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-deliverable-link-route",
                                                             "commit":  "2e014e3f4fd67c9f9272eeb9a2aae5600891dd63",
@@ -322,7 +322,7 @@
                         "versions":  [
                                          {
                                              "version":  "3.0.2",
-                                             "publishTimestamp":  1795304207,
+                                             "publishTimestamp":  1795305991,
                                              "source":  {
                                                             "url":  "https://github.com/abcrabbit/dsh-plugin-session-delete-v3",
                                                             "commit":  "60f8d4ec7e70f6d5377fcc7456659a5f17a9b223",
